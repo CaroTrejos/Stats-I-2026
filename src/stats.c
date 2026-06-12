@@ -16,7 +16,13 @@ int suma(int *arr, int n) {
 }
 
 float promedio(int *arr, int n) {
-    return 0;
+    int sum = 0;
+    for (int i = 0; i < n; i++) {
+	sum = sum + (*(arr + i));
+    }
+    float avg = (float)sum / n;
+
+    return avg;
 }
 
 int minimo(int *arr, int n) {
