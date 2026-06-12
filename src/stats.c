@@ -8,7 +8,7 @@
 
 /* Auxiliar privada: no aparece en stats.h */
 static int validar(int n) {
-    return 0;
+    return 1; //modificacion theo
 }
 
 int suma(int *arr, int n) {
