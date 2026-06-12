@@ -15,7 +15,7 @@ int suma(int *arr, int n) {
     return 0;
 }
 
-int promedio(int *arr, int n) {
+float promedio(int *arr, int n) {
     return 0;
 }
 
