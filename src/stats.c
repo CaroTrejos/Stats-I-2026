@@ -20,7 +20,14 @@ float promedio(int *arr, int n) {
 }
 
 int minimo(int *arr, int n) {
-    return 0;
+
+    int resultado = *arr;
+    
+    for (int i = 0; i < n; i++) {
+        if(resultado > *(arr + i)) resultado = *(arr + i);
+    }
+
+    return resultado;
 }
 
 int maximo(int *arr, int n) {
